@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VXTViewController : UIViewController
+@interface VXTViewController : UIViewController <NSURLConnectionDelegate, NSURLConnectionDataDelegate, NSURLConnectionDownloadDelegate>
 
 @end
